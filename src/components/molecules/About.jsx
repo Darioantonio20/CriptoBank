@@ -1,4 +1,5 @@
-import {AboutUs} from "../../Data/About"
+import "aos/dist/aos.css";
+import { AboutUs } from "../../Data/About"
 function About() {
     return (
         <>
@@ -7,7 +8,8 @@ function About() {
 
                 <div className="grid grid-cols-5 gap-5 p-10 mb-10">
                     {AboutUs.map((about) => (
-                        <div className="text-center shadow">
+                        <div className="text-center shadow" data-aos="fade-up"
+                            data-aos-duration="3000">
                             <div>
                                 <img src={about.img} alt="" className="w-full" />
                             </div>
