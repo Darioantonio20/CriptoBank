@@ -5,7 +5,7 @@ import ImgProfile from "../../assets/img/imgProfile.png";
 function NavBar() {
     return (
         <>
-            <nav class="border-gray-200 dark:bg-gray-900">
+            <nav>
                 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <Link to="/">
                         <img src={Logo} class="h-24 mr-1" alt="Flowbite Logo" />
